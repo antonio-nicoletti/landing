@@ -1,0 +1,38 @@
+.btn-call {
+  display: flex;
+  background-color: #112D4E;
+  color: #E4EEF9;
+  padding: 5px 18px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.btn-call:hover {
+  background-color: #3f72af;
+}
+
+.btn-mail {
+  display: flex;
+  flex-basis: 150px;
+  flex-wrap: wrap;
+  background-color: #112D4E;
+  color: #E4EEF9;
+  padding: 5px 18px;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-mail:hover {
+  background-color: #3f72af;
+}
+

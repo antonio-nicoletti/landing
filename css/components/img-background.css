@@ -1,0 +1,18 @@
+.img-background {
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#img1 {
+  background-image: linear-gradient(205deg, rgba(50, 50, 50, 0.3) 0%, rgba(50, 50, 50, 0.6) 70%), url(../../images/cute.jpg);
+}
+
+#img2 {
+  background-image: linear-gradient(205deg, rgba(50, 50, 50, 0.3) 0%, rgba(50, 50, 50, 0.6) 70%), url(../../images/doghouse.jpg);
+}

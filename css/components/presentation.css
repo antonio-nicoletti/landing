@@ -1,0 +1,42 @@
+.presentation {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-basis: 300px;
+  text-align: center;
+  margin: 30px 20px;
+  background-color: #DBE2EF;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.presentation h3 {
+  flex-grow: 1;
+  flex-basis: 400px;
+  margin: 10px 0;
+}
+
+.presentation p {
+  flex-grow: 1;
+  flex-basis: 400px;
+  margin-top: 0;
+}
+
+.img-small {
+  flex-basis: 100px;
+  padding: 5px;
+}
+
+.img-small img {
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+.content {
+  flex-basis: 400px;
+  flex-grow: 1;
+}
